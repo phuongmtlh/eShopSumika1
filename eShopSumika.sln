@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSumika.Data", "eShopSumika.Data\eShopSumika.Data.csproj", "{576E34F3-78E9-45BA-A76D-B03B0BDB9E17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSumika.Data", "eShopSumika.Data\eShopSumika.Data.csproj", "{576E34F3-78E9-45BA-A76D-B03B0BDB9E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopShopSumika.Application", "eShopShopSumika.Application\eShopShopSumika.Application.csproj", "{C3710FAC-DDE8-46BD-B947-3401A096B61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSumika.Application", "eShopShopSumika.Application\eShopSumika.Application.csproj", "{C3710FAC-DDE8-46BD-B947-3401A096B61C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
