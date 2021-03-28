@@ -6,3 +6,7 @@
  + N layer (data, business, prestation) --> Data driven design
  + DDD (domain driven design): 
 4. Web application --> request pipeline
+
+cau hình entity có 2 cách
+ - Attribute configuration
+ - fluent API Configuration
