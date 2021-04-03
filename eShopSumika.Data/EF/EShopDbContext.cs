@@ -1,4 +1,5 @@
-﻿using eShopSumika.Data.Entities;
+﻿using eShopSumika.Data.Configurations;
+using eShopSumika.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,17 @@ namespace eShopSumika.Data.EF
     class EShopDbContext : DbContext
     {
 
+        
+        // Specify DbSet properties etc
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //cho AppConfig
+            modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
+            //cho Product
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            //base.OnModelCreating(modelBuilder);
+        }
         public DbSet<Product> Products { get; set; }
 
         public DbSet<Category> Categories { get; set; }

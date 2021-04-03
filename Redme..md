@@ -1,4 +1,4 @@
-#ASP.net core 3.1 project from TEDU
+﻿#ASP.net core 3.1 project from TEDU
 ## Teachnologies
  - ASP.net core 3.1
  - Entity Framework Core 3.1
@@ -12,3 +12,4 @@ https://youtube.com/phuongmt
 ## How to configure and run
 ## How to contribute
 
+## trang https://www.learnentityframeworkcore.com/ để học
