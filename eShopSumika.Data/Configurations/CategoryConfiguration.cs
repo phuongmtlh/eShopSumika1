@@ -16,6 +16,7 @@ namespace eShopSumika.Data.Configurations
             builder.HasKey(x => x.id);
             builder.Property(x => x.Status).HasDefaultValue(Status.Active);
 
+
         }
     }
 }

@@ -19,6 +19,9 @@ namespace eShopSumika.Data.EF
             //cho Product
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductInCategoryConfiguration());
+
+
             //base.OnModelCreating(modelBuilder);
         }
         public DbSet<Product> Products { get; set; }

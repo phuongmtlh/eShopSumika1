@@ -7,6 +7,6 @@
  + DDD (domain driven design): 
 4. Web application --> request pipeline
 
-cau h�nh entity c� 2 c�ch
+cau hình entity có 2 cách
  - Attribute configuration
- - fluent API Configuration
+ - fluent API Configuration (cấu hình ràng buộc)

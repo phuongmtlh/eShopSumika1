@@ -13,5 +13,10 @@ namespace eShopSumika.Data.Entities
         public int ViewCount { set; get; }
         public DateTime dateCreated { set; get; }
         public string SeoAlias { set; get; }
+
+        public List<ProductInCategory> ProductInCategories {get;set;}
+
+        public List<OrderDetail> OrderDetails { get; set; }
+
     }
 }

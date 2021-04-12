@@ -16,5 +16,6 @@ namespace eShopSumika.Data.Entities
 
         public Product Product { get; set; }
 
+
     }
 }
